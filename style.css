@@ -1,0 +1,204 @@
+body {
+    margin: 0;
+}
+
+.page-header {
+    height: 200px;
+    background-image: url(8.jpg);
+    background-size: cover;
+}
+
+.logo {
+    flex: 1;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.name {
+    flex: 3;
+}
+
+.container {
+    justify-content: center;
+    margin: auto;
+    width: 800px;
+    display: flex;
+
+}
+
+.page-header h1 {
+    font-size: 4em;
+    margin-left: 10%;
+    font-family: "Marck Script", "Calibri";
+    color: #212121;
+    text-shadow: 0 0 2px black;
+}
+
+.navigation ul {
+
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    min-height: 60px;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.navigation ul li a span {
+    width: 100%;
+    font-size: 1.5em
+}
+
+.navigation ul li {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin: 0 50px;
+}
+
+.navigation {
+    background-color: #7bbbd0;
+    background-position-x: center;
+    background-size: 2000px;
+    background-position-y: 387px;
+
+}
+
+.content-about {
+    display: flex;
+    margin: 20px 0;
+}
+
+.content-text, .content-image {
+    flex: 1;
+    margin: 0 5px;
+}
+
+.content-image img {
+    max-width: 100%
+}
+
+.content-card {
+    display: flex;
+    margin: 20px 0;
+}
+
+.card {
+
+    flex: 1;
+    width: 23%;
+    margin: 6px;
+
+}
+
+.card-text h2 {
+    text-align: center;
+    font-family: "Marck Script", "Calibri"
+
+}
+
+.card-text {
+    word-break: break-all;
+    font-family: "Marck Script", "Calibri"
+}
+
+.card img {
+    max-width: 100%;
+}
+
+.card-img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+}
+
+.footer-nav, .footer-info, .socials {
+    flex: 1;
+}
+
+.footer ul li {
+    height: 70px;
+    text-decoration: #fefdff;
+    list-style-type: none;
+    font-family: "Marck Script", "Calibri";
+}
+
+.footer ul li a {
+    font-family: "Marck Script", "Calibri";
+    text-decoration: #fefdff;
+}
+
+.socials-img img {
+    height: 50px;
+    width: 70px;
+}
+
+.gal {
+    font-family: "Marck Script", "Calibri"
+}
+
+.galcent {
+
+    align-items: center;
+    display: flex;
+    margin: 1px
+}
+
+.button {
+    background-color: #7bbbd0;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    justify-content: center;
+    margin: 0 50px;
+}
+
+.button a {
+    font-family: "Marck Script", "Calibri";
+    color: white;
+    text-decoration: none;
+
+}
+
+.navigation a {
+    font-family: "Marck Script", "Calibri";
+    color: white;
+    text-decoration: none;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+}
+
+.comment {
+    margin: 0 500px;
+    display: flex
+}
+
+.comment-image img {
+    margin: 10px 10px;
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.comment p {
+    font-size: 2.4em;
+    font-family: "Marck Script", "Calibri";
+    margin: 30px 0;
+}
+.footer a {
+    color: black;
+    font-family: "Marck Script", "Calibri"
+}
